@@ -3,7 +3,7 @@ title: "TerraformをGitHubActionsを使ってCI/CDを試す"
 emoji: "👌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Terraform", "GitHubActions"]
-published: false
+published: true
 ---
 
 TerraformをGitHubActionsを使って実行します。
