@@ -14,7 +14,8 @@ TerraformをGitHubActionsを使って実行します。
 
 また今回作成するAWSのリソースはVPCとセキュリティグループとします。簡単に変更などがわかる かつ 料金がかからないためです。
 
-（ゆくゆくは`main`にプルリクエストが送られたら、`terraform plan`まで行い、マージするときに`terraform apply`がしたい… もう少しGitHubActionsを勉強します）
+~~（ゆくゆくは`main`にプルリクエストが送られたら、`terraform plan`まで行い、マージするときに`terraform apply`がしたい… もう少しGitHubActionsを勉強します）~~
+こちらのGitHubActionsはmainにプルリクで`plan`まで、pushで`apply`を行う設定でした！
 
 # リポジトリにAWSの認証情報を登録
 
